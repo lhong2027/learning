@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    background-color: #d6c1cf;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 40px;
+    justify-items: center;
+    align-items: center;
+    grid-auto-rows: 1fr;
+}
+
+.child {
+    background-color: #ffecfe;
+    flex-grow: 1;
+}
